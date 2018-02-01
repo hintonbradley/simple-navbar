@@ -1,0 +1,106 @@
+#first .links-wrapper {
+	background-color: lightgrey;
+	height: 50px;
+}
+
+nav#first  ul {
+    text-align: center;
+    padding: 10px 0px 0px;
+}
+
+nav#first li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav#first  li a {
+    text-decoration: none;
+    padding: 6px;
+    /*Adding line height to expand hover shading on a tags*/
+    line-height: 2em;
+}
+
+#first li:hover {
+	background-color: grey;
+}
+
+/*Styling vertical lines in between links*/
+#first .line {
+	width: 1px;
+	background-color: black;
+	height: 20px;
+	vertical-align: middle;
+}
+
+/**/
+
+#second .links-wrapper {
+	background-color: lightgrey;
+	height: 50px;
+}
+
+nav#second  ul {
+    text-align: center;
+    padding: 10px 0px 0px;
+}
+
+nav#second li {
+    list-style: none;
+    display: inline-block;
+    border-left: 1px solid black;
+}
+
+nav#second  li a {
+    text-decoration: none;
+    padding: 6px;
+    /*Adding line height to expand hover shading on a tags*/
+    line-height: 2em;
+}
+
+nav#second li:first-child {
+	border: none;
+}
+
+#second li:hover {
+	background-color: grey;
+}
+
+/**/
+/*Simple flex navbar - not concerned with browsers*/
+
+#flex .links-wrapper {
+	height: 50px;
+	background-color: lightgrey;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+nav#flex  ul {
+	display: flex;
+	padding: 0px;
+	margin: 0px;
+}
+
+nav#flex li {
+    list-style: none;
+    border-left: 1px solid black;
+}
+
+nav#flex  li a {
+    text-decoration: none;
+    padding: 6px;
+    display: inline-block;
+}
+
+#flex li:hover {
+	background-color: grey;
+}
+
+#flex li:first-child {
+	border: none;
+}
+
+
+
